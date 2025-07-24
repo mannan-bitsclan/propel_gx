@@ -404,9 +404,18 @@ a.transparent-bg-button:hover {
 /* DEEP DIVE SECTION CSS */
 .main-deep-dive-section {
     background-color: #0B1D3A;
-    padding: 140px 0 50px 0;
+    padding: 140px 0 150px 0;
     margin-top: -100px;
     border-radius: 100px 100px 0 0;
+    position: relative;
+}
+
+.earth-image img {
+    width: 350px;
+    position: absolute;
+    right: 0;
+    bottom: -225px;
+    z-index: 99;
 }
 
 .deep-dive-section-content h1 {
@@ -421,14 +430,13 @@ a.transparent-bg-button:hover {
     width: 60%;
     margin: 0 auto;
     margin-top: 30px;
-    margin-bottom: 30px;
 }
 
 .deep-dive-buttons {
     display: flex;
     justify-content: center;
     gap: 50px;
-    margin-top: 10px;
+    margin-top: 50px;
 }
 
 .deep-dive-buttons a:hover {
@@ -443,41 +451,99 @@ a.transparent-bg-button.active {
     color: #ffffff;
 }
 
-/* gsap images */
-.deep-dive-section {
-    position: relative;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.deep-dive-images {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
 .deep-dive-image {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
     width: 65%;
-    opacity: 0;
-    margin-top: 15px;
-}
-
-.deep-dive-image.active {
-    opacity: 1;
-    z-index: 1;
+    height: 700px;
+    margin: 0 auto;
+    margin-top: 55px;
 }
 
 .deep-dive-image img {
     width: 100%;
 }
 
-/* gsap images */
-
 /* DEEP DIVE SECTION CSS */
+
+/* OUR PROPRIETARY SECTION CSS */
+.main-proprietary-section {
+    background-color: #0B1D3A;
+    position: relative;
+    padding-bottom: 70px;
+}
+
+.proprietary-content {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.proprietary-content h3 {
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.proprietary-content p {
+    color: #ffffff;
+    text-align: center;
+}
+
+.proprietary-card-box {
+    background-color: #276EF1B2;
+    padding: 30px;
+    border-radius: 30px;
+    margin: 0 20px;
+    cursor: pointer;
+    min-height: 320px !important;
+    width: 630px;
+}
+
+.proprietary-card-box h5 {
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 700;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.proprietary-card-box ul {
+    padding-left: 30px;
+}
+
+.proprietary-card-box ul li {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    width: 80%;
+    margin-bottom: 5px;
+}
+
+/* MARQEE SLIDER */
+.marquee-container {
+    overflow-x: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.marquee-track {
+    display: inline-flex;
+    animation: marquee 30s linear infinite;
+}
+
+.marquee-container:hover .marquee-track {
+    animation-play-state: paused;
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* MARQEE SLIDER */
+
+/* OUR PROPRIETARY SECTION CSS */
