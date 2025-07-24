@@ -181,10 +181,6 @@ a.transparent-bg-button:hover {
     box-shadow: 0 0 40px 0 rgba(0, 0, 0, 45%);
 }
 
-.growth-card-box:hover .growth-icon img {
-    transform: rotateY(360deg);
-}
-
 .growth-icon img {
     width: 80px;
     transition: all 0.3s ease-in-out;
@@ -206,7 +202,7 @@ a.transparent-bg-button:hover {
 
 /* WHY US SECTION CSS */
 .main-why-us-section {
-    padding: 50px 0;
+    padding: 50px 0 0 0;
 }
 
 .why-us-content h5 {
@@ -242,38 +238,6 @@ a.transparent-bg-button:hover {
     width: 310px;
 }
 
-/* .why-us-card-box-main {
-    position: relative;
-    border-radius: 10px;
-    overflow: hidden !important;
-    cursor: pointer;
-}
-
-.why-us-card-box-main:before {
-    position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(255, 255, 255, 0.153);
-    border-radius: inherit;
-    backdrop-filter: blur(20px);
-    transform: scale(0);
-    transform-origin: left top;
-    z-index: 1;
-    -webkit-transition-duration: 550ms;
-    transition-duration: 550ms;
-    -webkit-transition-property: transform;
-    transition-property: transform;
-    -webkit-transition-timing-function: cubic-bezier(0.85, 0, 0, 1);
-    transition-timing-function: cubic-bezier(0.85, 0, 0, 1);
-}
-
-.why-us-card-box-main:hover::before {
-    transform: scale(1.5);
-} */
-
 .why-us-card-box-main {
     position: relative;
     border-radius: 12px;
@@ -305,8 +269,8 @@ a.transparent-bg-button:hover {
 
 .why-us-card-image {
     width: 100%;
-    min-height: 500px;
-    height: 550px;
+    min-height: 580px;
+    height: 580px;
     max-height: 100%;
     overflow: hidden;
 }
@@ -354,126 +318,27 @@ a.transparent-bg-button:hover {
 
 /* WHY US SECTION CSS */
 
-/* FULL FUNNLE SECTION CSS */
-.full-funnel-section-content h3 {
-    font-weight: 700;
-    margin-bottom: 20px;
-}
-
-.full-funnel-section-content p {
-    color: #0B1D3A;
-}
-
-.main-full-funnel-section {
-    padding: 0 0 180px 0;
-}
-
-/* chart section css */
-.chart-container {
-    width: 450px;
-    height: 450px;
-    position: relative;
-    margin-left: auto;
-}
-
-.chart-legend {
+.earth-image img {
+    width: 300px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: left;
-    font-family: Arial, sans-serif;
+    right: 0;
+    top: 150px;
 }
 
-.legend-item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 5px;
-}
-
-.legend-color {
-    width: 20px;
-    height: 17px;
-    border-radius: 50%;
-    margin-right: 8px;
-}
-
-/* chart section css */
-/* FULL FUNNLE SECTION CSS */
-
-/* DEEP DIVE SECTION CSS */
-.main-deep-dive-section {
+/* OUR PROPRIETARY SECTION CSS */
+.main-proprietary-section {
     background-color: #0B1D3A;
-    padding: 140px 0 150px 0;
+    padding: 80px 0 120px 0;
     margin-top: -100px;
     border-radius: 100px 100px 0 0;
     position: relative;
 }
 
-.earth-image img {
-    width: 350px;
-    position: absolute;
-    right: 0;
-    bottom: -225px;
-    z-index: 99;
-}
-
-.deep-dive-section-content h1 {
-    text-align: center;
-    color: #ffffff;
-    font-weight: 700;
-}
-
-.deep-dive-section-content p {
-    text-align: center;
-    color: #ffffff;
-    width: 60%;
-    margin: 0 auto;
-    margin-top: 30px;
-}
-
-.deep-dive-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    margin-top: 50px;
-}
-
-.deep-dive-buttons a:hover {
-    background-color: #1F56BA;
-    border-color: #1F56BA;
-    color: #ffffff;
-}
-
-a.transparent-bg-button.active {
-    background-color: #1F56BA;
-    border-color: #1F56BA;
-    color: #ffffff;
-}
-
-.deep-dive-image {
-    width: 65%;
-    height: 700px;
-    margin: 0 auto;
-    margin-top: 55px;
-}
-
-.deep-dive-image img {
-    width: 100%;
-}
-
-/* DEEP DIVE SECTION CSS */
-
-/* OUR PROPRIETARY SECTION CSS */
-.main-proprietary-section {
-    background-color: #0B1D3A;
-    position: relative;
-    padding-bottom: 70px;
-}
-
 .proprietary-content {
     width: 60%;
     margin: 0 auto;
+    position: relative;
+    z-index: 9;
 }
 
 .proprietary-content h3 {
@@ -489,21 +354,20 @@ a.transparent-bg-button.active {
 }
 
 .proprietary-card-box {
-    background-color: #276EF1B2;
-    padding: 30px;
-    border-radius: 30px;
-    margin: 0 20px;
+    background: #276EF1B2;
+    padding: 25px 30px;
+    border-radius: 25px;
+    margin: 0 12px;
     cursor: pointer;
-    min-height: 320px !important;
-    width: 630px;
+    height: auto !important;
+    width: 440px;
 }
 
 .proprietary-card-box h5 {
     color: #ffffff;
-    font-size: 32px;
+    font-size: 26px;
     font-weight: 700;
-    width: 80%;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .proprietary-card-box ul {
@@ -512,10 +376,9 @@ a.transparent-bg-button.active {
 
 .proprietary-card-box ul li {
     color: #ffffff;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
-    width: 80%;
-    margin-bottom: 5px;
+    margin-top: 5px;
 }
 
 /* MARQEE SLIDER */
@@ -550,7 +413,7 @@ a.transparent-bg-button.active {
 
 /* NO FLUFF SECTION CSS */
 .main-no-fluff-section {
-    padding: 50px 0;
+    padding: 60px 0 170px 0;
 }
 
 .no-fluff-content h3 {
@@ -598,7 +461,7 @@ canvas {
 /* TESTIMONAIL SECTION */
 .main-testimonial-section {
     background-color: #276EF1;
-    padding: 50px 0;
+    padding: 80px 0;
 }
 
 .testimonail-content h3 {
@@ -663,4 +526,58 @@ canvas {
     text-align: center;
 }
 
+.trusted-logo-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.trusted-logo {
+    width: 210px;
+    margin: 0 15px;
+}
+
+.trusted-logo img {
+    width: 100%;
+}
+
 /* TRUSTED BRAND SECTION */
+
+/* FOOTER CSS */
+.main-footer-section {
+    background-color: #0B1D3A;
+    padding: 120px 0 40px 0;
+}
+
+.footer-content h1 {
+    font-weight: 500;
+    text-align: center;
+    color: #ffffff;
+}
+
+.footer-content p {
+    text-align: center;
+    color: #ffffff;
+    width: 70%;
+    margin: 0 auto;
+    line-height: 1.7 !important;
+}
+
+.footer-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.copy-right-button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.copy-right-button a {
+    padding: 10px 25px;
+}
+
+/* FOOTER CSS */
