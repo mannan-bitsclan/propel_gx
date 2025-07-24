@@ -547,3 +547,120 @@ a.transparent-bg-button.active {
 /* MARQEE SLIDER */
 
 /* OUR PROPRIETARY SECTION CSS */
+
+/* NO FLUFF SECTION CSS */
+.main-no-fluff-section {
+    padding: 50px 0;
+}
+
+.no-fluff-content h3 {
+    font-weight: 700;
+    text-align: center;
+    color: #0B1D3A;
+    margin-bottom: 15px;
+}
+
+.no-fluff-content p {
+    text-align: center;
+    color: #0B1D3A;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.chart-container-second {
+    padding: 0 30px;
+}
+
+canvas {
+    max-width: 100%;
+    height: auto;
+}
+
+.fluff-chart-content h5 {
+    font-size: 51px;
+    font-weight: 700;
+    color: #0B1D3A;
+    margin-bottom: 15px;
+}
+
+.fluff-chart-content ul {
+    padding-left: 20px;
+}
+
+.fluff-chart-content ul li {
+    font-size: 20px;
+    color: #0B1D3A;
+    margin-bottom: 15px;
+}
+
+/* NO FLUFF SECTION CSS */
+
+/* TESTIMONAIL SECTION */
+.main-testimonial-section {
+    background-color: #276EF1;
+    padding: 50px 0;
+}
+
+.testimonail-content h3 {
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.testimonail-content p {
+    color: #ffffff;
+    font-size: 18px !important;
+}
+
+.quote-image {
+    width: 110px;
+    margin-left: auto;
+}
+
+.quote-image img {
+    width: 100%;
+}
+
+.testimonail-slider-box {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 30px !important;
+}
+
+.testimonial-text-box h6 {
+    font-size: 32px;
+    color: #ffffff;
+    text-align: center;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.testimonial-text-box h5 {
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: 700;
+    margin: 50px 0 0 0;
+}
+
+/* TESTIMONAIL SECTION */
+
+/* TRUSTED BRAND SECTION */
+
+.main-trusted-brands-section {
+    padding: 50px 0;
+}
+
+.truested-brand-content h3 {
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.truested-brand-content p {
+    color: #002C15;
+    text-align: center;
+}
+
+/* TRUSTED BRAND SECTION */
