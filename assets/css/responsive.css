@@ -136,11 +136,7 @@
     }
 
     a.transparent-bg-button.why-us-tabs-button {
-        width: 100% !important;
-    }
-
-    .why-us-card-image {
-        height: 580px !important;
+        width: 80% !important;
     }
 
     .testimonial-text-box h5 {
@@ -153,6 +149,7 @@
 
     .why-us-image {
         width: 65%;
+        margin: 0 auto;
     }
 
     .banner-wrapper .slick-dots {
@@ -172,12 +169,13 @@
     }
 
     .why-us-card-content p {
-        font-size: 20px !important;
+        font-size: 16px !important;
     }
 
+    /* 
     .why-us-card-content h4 {
         font-size: 26px !important;
-    }
+    } */
 
     .footer-copy-right-text ul,
     p.footer-copyright-text {
@@ -196,7 +194,8 @@
 
     a.white-bg-button,
     a.transparent-bg-button {
-        width: 100%;
+        width: 80%;
+        margin: 0 auto;
         text-align: center;
     }
 
@@ -272,6 +271,10 @@
 
     .copy-right-button a span {
         display: none;
+    }
+
+    .space-top-card-box {
+        width: 92% !important;
     }
 }
 
