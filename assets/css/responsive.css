@@ -124,6 +124,10 @@
         padding: 50px 0 130px 0;
     }
 
+    .copy-right-button a {
+        margin: inherit !important;
+    }
+
     .trusted-logo {
         width: 120px;
         margin: 15px 10px !important;
