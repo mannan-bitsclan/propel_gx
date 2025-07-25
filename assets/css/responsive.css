@@ -1,3 +1,17 @@
+@media(max-width: 992px) {
+    .navbar-nav.header-links.ms-auto {
+        background-color: #ffffff;
+        border-radius: 10px;
+        margin-top: 10px;
+        padding: 15px 0 5px 0;
+    }
+
+    .header-links a {
+        color: #0B1D3A !important;
+        margin: 0 15px 10px 15px;
+    }
+}
+
 @media(max-width: 995px) {
     h1 {
         font-size: 64px !important;
@@ -28,6 +42,10 @@
     .testimonail-slider-box,
     .footer-content p {
         width: 100%;
+    }
+
+    .earth-image img {
+        width: 250px;
     }
 
     .growth-section-content h3 {
@@ -69,7 +87,7 @@
     }
 
     .why-us-card-content p {
-        margin-top: 20px;
+        margin-top: 18px;
     }
 
     .growth-icon img {
@@ -83,6 +101,10 @@
     .growth-card-box {
         padding: 25px;
     }
+
+    .header-links a:before {
+        display: none;
+    }
 }
 
 @media(max-width: 450px) {
@@ -94,9 +116,44 @@
         font-size: 28px !important;
     }
 
-    .main-banner-buttons {
-        margin-bottom: 160px;
+    .trusted-logo {
+        width: 120px;
+        margin: 15px 10px !important;
+    }
+
+    .testimonial-text-box h5 {
+        font-size: 22px;
+    }
+
+    .quote-image {
+        width: 60px;
+    }
+
+    .trusted-logo-box {
+        flex-wrap: wrap;
+    }
+
+    .why-us-tabs-buttons-box {
+        flex-wrap: wrap;
+    }
+
+    .why-us-card-content p {
+        font-size: 16px !important;
+    }
+
+    .footer-copy-right-text ul,
+    p.footer-copyright-text {
+        justify-content: center;
         flex-direction: column;
+    }
+
+    .main-banner-buttons {
+        margin-bottom: 130px;
+        flex-direction: column;
+    }
+
+    .main-banner-section {
+        padding: 30px 0 50px 0;
     }
 
     a.white-bg-button,
@@ -106,7 +163,7 @@
     }
 
     .main-growth-section {
-        border-radius: 50px 50px 0 0;
+        border-radius: 35px 35px 0 0;
         padding-bottom: 0;
     }
 
@@ -132,7 +189,7 @@
     }
 
     .main-proprietary-section {
-        border-radius: 50px 50px 0 0;
+        border-radius: 35px 35px 0 0;
         padding: 60px 0 90px 0;
     }
 
@@ -162,7 +219,13 @@
     }
 
     .testimonail-slider-box {
-        height: 330px;
+        height: auto;
+    }
+
+    a.white-bg-button,
+    a.transparent-bg-button {
+        font-size: 16px;
+        padding: 12px 15px !important;
     }
 
     .fluff-chart-content h5 {
@@ -173,3 +236,23 @@
         display: none;
     }
 }
+
+/* BURGER MENU CSS */
+span.navbar-toggler-icon {
+    background-image: none;
+}
+
+button.navbar-toggler {
+    padding: 0;
+    box-shadow: none !important;
+}
+
+span.navbar-toggler-icon i {
+    background-image: none;
+    color: #ffffff;
+    padding: 0;
+    outline: none;
+    font-size: 25px;
+}
+
+/* BURGER MENU CSS */
