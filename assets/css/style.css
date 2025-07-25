@@ -119,7 +119,7 @@ a.transparent-bg-button:hover {
     display: flex;
     justify-content: center;
     gap: 30px;
-    margin: 20px 0;
+    padding: 20px 0;
 }
 
 a.transparent-bg-button.why-us-tabs-button.active {
@@ -130,6 +130,10 @@ a.transparent-bg-button.why-us-tabs-button.active {
 a.transparent-bg-button.why-us-tabs-button {
     border-color: #1F56BA;
     color: #1F56BA;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* BUTTONS CSS */

@@ -102,6 +102,10 @@
         padding: 25px;
     }
 
+    a.transparent-bg-button.why-us-tabs-button {
+        width: fit-content !important;
+    }
+
     .header-links a:before {
         display: none;
     }
@@ -121,6 +125,14 @@
         margin: 15px 10px !important;
     }
 
+    a.transparent-bg-button.why-us-tabs-button {
+        width: 100% !important;
+    }
+
+    .why-us-card-image {
+        height: 580px !important;
+    }
+
     .testimonial-text-box h5 {
         font-size: 22px;
     }
@@ -137,8 +149,16 @@
         flex-wrap: wrap;
     }
 
+    .why-us-card-content {
+        padding: 30px 25px !important;
+    }
+
     .why-us-card-content p {
-        font-size: 16px !important;
+        font-size: 20px !important;
+    }
+
+    .why-us-card-content h4 {
+        font-size: 26px !important;
     }
 
     .footer-copy-right-text ul,
@@ -292,6 +312,13 @@ ul.slick-dots li {
 .slick-dots li button:before {
     opacity: 1 !important;
     display: none !important;
+}
+
+.banner-wrapper .slick-dots {
+    position: relative;
+    z-index: 9999;
+    top: -140px;
+    opacity: 0.3;
 }
 
 /* SLIDER DOTS CSS */
