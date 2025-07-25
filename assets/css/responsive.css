@@ -129,6 +129,12 @@
         margin: 15px 10px !important;
     }
 
+    .scroller-box {
+        flex-wrap: nowrap !important;
+        overflow-x: scroll;
+        padding-bottom: 10px;
+    }
+
     a.transparent-bg-button.why-us-tabs-button {
         width: 100% !important;
     }
