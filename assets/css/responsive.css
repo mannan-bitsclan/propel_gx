@@ -255,4 +255,64 @@ span.navbar-toggler-icon i {
     font-size: 25px;
 }
 
+.space-top-card-box {
+    padding: 0 5px !important;
+    margin-top: 10px !important;
+}
+
 /* BURGER MENU CSS */
+
+/* SLIDER DOTS CSS */
+
+ul.slick-dots,
+ul.slick-dots li {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0 !important;
+}
+
+.slick-dots {
+    bottom: -40px !important;
+}
+
+.slick-dots li button {
+    border: 2px solid #ffffff !important;
+    border-radius: 100px;
+    width: 10px !important;
+    padding: 0;
+    height: 10px !important;
+}
+
+.slick-dots li.slick-active button {
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+}
+
+.slick-dots li button:before {
+    opacity: 1 !important;
+    display: none !important;
+}
+
+/* SLIDER DOTS CSS */
+
+/* BANNER SLIDER ARROWS CSS */
+.slick-next:before {
+    content: '\f061' !important;
+    font-family: 'FontAwesome' !important;
+}
+
+.slick-prev:before {
+    content: '\f060' !important;
+    font-family: 'FontAwesome' !important;
+}
+
+@media(max-width: 590px) {
+
+    .slick-next:before,
+    .slick-prev:before {
+        display: none !important;
+    }
+}
+
+/* BANNER SLIDER ARROWS CSS */

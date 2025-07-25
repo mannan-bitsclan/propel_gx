@@ -136,14 +136,7 @@ a.transparent-bg-button.why-us-tabs-button {
 
 /* MAIN BANNER */
 
-.banner-wrapper {
-    position: relative;
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-}
-
-.main-banner-content {
+/* .main-banner-content {
     position: absolute;
     top: 0;
     left: 0;
@@ -157,7 +150,7 @@ a.transparent-bg-button.why-us-tabs-button {
     opacity: 1;
     visibility: visible;
     position: relative;
-}
+} */
 
 
 .main-banner-section {
@@ -349,7 +342,7 @@ a.transparent-bg-button.why-us-tabs-button {
 .why-us-card-content {
     position: absolute;
     top: 0;
-    padding: 25px 30px;
+    padding: 30px;
     color: #ffffff;
     z-index: 2;
 }
@@ -357,7 +350,7 @@ a.transparent-bg-button.why-us-tabs-button {
 .why-us-card-content h4 {
     font-weight: 700;
     color: #ffffff;
-    font-size: 25px !important;
+    font-size: 22px !important;
 }
 
 .why-us-card-content p {
@@ -547,7 +540,7 @@ a.transparent-bg-button.why-us-tabs-button {
 }
 
 .trusted-logo {
-    width: 190px;
+    /* width: 190px; */
     margin: 0 15px;
 }
 
