@@ -96,7 +96,7 @@ a.transparent-bg-button {
 
 a.white-bg-button {
     background-color: #ffffff;
-    color: #002C15;
+    color: #0B1D3A;
 }
 
 a.white-bg-button:hover {
@@ -112,14 +112,14 @@ a.transparent-bg-button {
 
 a.transparent-bg-button:hover {
     background-color: #ffffff;
-    color: #002C15;
+    color: #0B1D3A;
 }
 
 .why-us-tabs-buttons-box {
     display: flex;
     justify-content: center;
     gap: 30px;
-    padding: 20px 0;
+    padding: 35px 0;
 }
 
 a.transparent-bg-button.why-us-tabs-button.active {
@@ -360,7 +360,7 @@ a.transparent-bg-button.why-us-tabs-button {
 .why-us-card-content p {
     font-weight: 400 !important;
     margin-top: 15px;
-    font-size: 18px !important;
+    font-size: 17px !important;
     opacity: 0;
     transform: translateX(200px);
     transition: opacity 550ms cubic-bezier(0.85, 0, 0, 1),
@@ -521,7 +521,7 @@ a.transparent-bg-button.why-us-tabs-button {
 /* TRUSTED BRAND SECTION */
 
 .main-trusted-brands-section {
-    padding: 70px 0 160px 0;
+    padding: 90px 0 190px 0;
 }
 
 .truested-brand-content h3 {
