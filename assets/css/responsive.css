@@ -120,6 +120,10 @@
         font-size: 28px !important;
     }
 
+    .main-trusted-brands-section {
+        padding: 50px 0 130px 0;
+    }
+
     .trusted-logo {
         width: 120px;
         margin: 15px 10px !important;
@@ -139,6 +143,14 @@
 
     .quote-image {
         width: 60px;
+    }
+
+    .why-us-image {
+        width: 65%;
+    }
+
+    .banner-wrapper .slick-dots {
+        top: -95px !important;
     }
 
     .trusted-logo-box {
